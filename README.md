@@ -10,7 +10,7 @@ Proposals account for user-specified constraints, including:
 
 Beyond above constraints, algorithm maximizes linestring count and length.
 
-Starter demo data (shapefile) included for convenience.
+[Starter demo data](./data) (shapefile) included for your convenience.
 
 Note: `adjustment_factor` needs to be used when centering linestrings within polygon, or when handling irregular-shaped polygons with custom linestring spacing requirements.
 
