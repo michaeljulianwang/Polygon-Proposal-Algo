@@ -331,7 +331,7 @@ def linestringProposal(polygon, orientation, spacing, min_edge_spacing = 330, mi
 
 if __name__ == "__main__":
 
-    path = r'/Users/mwang/Documents/Active Projects/demo.shp'
+    path = './data/demo.shp'
     gdf = gpd.read_file(path)
     gdf = gdf.set_crs(epsg=4326) # set CRS
 
