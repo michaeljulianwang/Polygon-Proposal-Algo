@@ -3,14 +3,14 @@
 Python3 algorithm that proposes linestring locations within an arbitrary-shaped polygon. 
 
 Proposals account for user-specified constraints, including:
-- `orientation`: desired cardinal
+- `orientation`: desired cardinal direction of linestring proposals
 - `min_len`: minimum linestring length, below which proposals are dropped
 - `spacing`: minimum distance between adjacent proposed linestrings
 - `min_edge_spacing`: minimum distance proposed linestrings must maintain away from polygon exterior
 
 Beyond above constraints, algorithm maximizes linestring count and length.
 
-[Starter demo data](./data) (shapefile) included for your convenience.
+[Starter demo data](./data) (shapefile) is included for convenience.
 
 Note: `adjustment_factor` needs to be used when centering linestrings within polygon, or when handling irregular-shaped polygons with custom linestring spacing requirements.
 
